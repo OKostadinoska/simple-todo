@@ -15,7 +15,7 @@ Step by step on how to run the application:
 3. create the appropriate database (you can use these details to create your database or create your won
       - spring.datasource.url = jdbc:postgresql://localhost:5432/ToDoDB
       - spring.datasource.username = postgres
-      - spring.datasource.password = 0livera0)
+      - spring.datasource.password = 0livera0
 4. run the application
 
 
