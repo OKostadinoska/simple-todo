@@ -12,10 +12,7 @@
 Step by step on how to run the application:
 1. clone the project from github
 2. open folder in your development tool
-3. create the appropriate database (you can use these details to create your database or create your won
-      - spring.datasource.url = jdbc:postgresql://localhost:5432/ToDoDB
-      - spring.datasource.username = postgres
-      - spring.datasource.password = 0livera0
+3. create the appropriate database (you can use these details to create your database or create your own)
 4. run the application
 
 
