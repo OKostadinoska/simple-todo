@@ -49,7 +49,7 @@ public class TodoRepositoryTest {
 
 	@Test
 	public void testGetTodoById() {
-		Integer todoId = 2;
+		Integer todoId = 3;
 		Todo todo = repo.findById(2).get();
 		System.out.println(todo);
 
@@ -58,7 +58,7 @@ public class TodoRepositoryTest {
 
 	@Test
 	public void testUpdateTodoDetails() {
-		Todo Todo = repo.findById(2).get();
+		Todo Todo = repo.findById(3).get();
 		Todo.setDescription("learn spring booooot");
 
 		repo.save(Todo);
@@ -67,7 +67,7 @@ public class TodoRepositoryTest {
 
 	@Test
 	public void testDeleteTodo() {
-		Integer todoId = 2;
+		Integer todoId = 3;
 		repo.deleteById(todoId);
 	}
 
