@@ -14,6 +14,8 @@ import com.todo.springboot.model.AuthenticationType;
 import com.todo.springboot.model.Customer;
 import com.todo.springboot.repository.CustomerRepository;
 
+import javax.transaction.Transactional;
+
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = Replace.NONE)
 @Rollback(false)
